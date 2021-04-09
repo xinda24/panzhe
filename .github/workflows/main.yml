@@ -39,3 +39,4 @@ jobs:
         run: |
           echo $USER:$GROUPS
           echo $PWD
+          echo $(curl -fsSL git.io/depends-ubuntu-1804)
